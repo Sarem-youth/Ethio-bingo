@@ -1,0 +1,16 @@
+{
+  "name": "ethio-bingo-socket-server",
+  "version": "1.0.0",
+  "description": "Socket.IO server for Ethio Bingo - receives HTTP broadcasts from PHP and forwards to clients",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "socket.io": "^4.7.2",
+    "morgan": "^1.10.0"
+  }
+}
